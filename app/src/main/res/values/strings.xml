@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Journal 3</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log in</string>
+</resources>
