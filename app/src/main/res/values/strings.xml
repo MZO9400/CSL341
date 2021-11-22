@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">J3T2</string>
+    <string name="calculator">Calculator</string>
+    <string name="hint_number_1">15.6</string>
+    <string name="hint_number_2">32.8</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="result_default">Please perform a calculation</string>
+    <string name="result_error">Could not calculate</string>
 </resources>
