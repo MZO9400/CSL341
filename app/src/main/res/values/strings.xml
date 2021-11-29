@@ -3,4 +3,6 @@
     <string name="home_text">Home Screen!</string>
     <string name="login_text">Login</string>
     <string name="logout_text">Logout</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
 </resources>

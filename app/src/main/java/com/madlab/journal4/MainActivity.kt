@@ -1,6 +1,8 @@
 package com.madlab.journal4
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -8,6 +10,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
+import java.util.logging.LogManager
 
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var user: TextView
 
     private var isLoggedIn: Boolean = false
-    private var userId: String = ""
+    private var userId: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,9 +33,12 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         val intent = intent
-        userId = intent.getStringExtra("username").toString()
+        userId = intent.getStringExtra("username")
+        Log.d("MainActivity", "userId: $userId")
 
-        isLoggedIn = userId.isNotEmpty()
+        if (userId != null) {
+            isLoggedIn = true
+        }
 
         setupLoginButton()
         if (isLoggedIn) {
@@ -69,13 +75,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun login() {
-
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 
     private fun logout() {
         authButton.text = getString(R.string.login_text)
         isLoggedIn = false
-        userId = ""
+        userId = null
         container.removeView(user)
     }
 }
