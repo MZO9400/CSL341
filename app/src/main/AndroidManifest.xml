@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Journal7">
         <activity
+            android:name=".ConfirmationActivity"
+            android:exported="true" />
+        <activity
             android:name=".ReigsterActivity"
             android:exported="true" />
         <activity

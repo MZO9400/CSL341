@@ -7,4 +7,7 @@
     <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="register_now">Register now!</string>
+    <string name="confirm_details">Please confirm your details</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit">Edit</string>
 </resources>
