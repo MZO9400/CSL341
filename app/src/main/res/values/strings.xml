@@ -2,4 +2,9 @@
     <string name="app_name">Journal7</string>
     <string name="congratulations">Congratulations!</string>
     <string name="username_not_found">Could not find your username</string>
+    <string name="register_message">Please register to continue</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="register_now">Register now!</string>
 </resources>
