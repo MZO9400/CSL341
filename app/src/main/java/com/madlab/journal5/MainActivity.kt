@@ -1,9 +1,8 @@
-package com.madlab.journal7
+package com.madlab.journal5
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.madlab.journal7">
+    package="com.madlab.journal5">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Journal7">
         <activity
-            android:name=".ConfirmationActivity"
+            android:name="com.madlab.journal5.ConfirmationActivity"
             android:exported="true" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.madlab.journal5.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.madlab.journal5.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

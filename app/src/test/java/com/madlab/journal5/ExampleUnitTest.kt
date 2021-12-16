@@ -1,4 +1,4 @@
-package com.madlab.journal7
+package com.madlab.journal5
 
 import org.junit.Test
 
