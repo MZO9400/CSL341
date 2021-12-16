@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Journal7</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="username_not_found">Could not find your username</string>
 </resources>
