@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Journal6</string>
+    <string name="search">Search Web</string>
+    <string name="map">Search Map</string>
+    <string name="gallery">Open gallery</string>
+    <string name="search_here">Search here...</string>
+</resources>
