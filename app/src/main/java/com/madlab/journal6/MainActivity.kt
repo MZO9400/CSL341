@@ -24,5 +24,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, WebViewActivity::class.java))
         }
 
+        mapActivityButton.setOnClickListener {
+            startActivity(Intent(this, MapActivity::class.java))
+        }
+
     }
 }
