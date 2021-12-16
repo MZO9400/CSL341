@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Journal6">
         <activity
+            android:name=".ImageViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".MapActivity"
             android:exported="true" />
         <activity

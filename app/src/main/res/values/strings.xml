@@ -4,4 +4,6 @@
     <string name="map">Search Map</string>
     <string name="gallery">Open gallery</string>
     <string name="search_here">Search here...</string>
+    <string name="camera">Open Camera</string>
+    <string name="image">image</string>
 </resources>
