@@ -13,7 +13,7 @@
             android:name=".ConfirmationActivity"
             android:exported="true" />
         <activity
-            android:name=".ReigsterActivity"
+            android:name=".RegisterActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
